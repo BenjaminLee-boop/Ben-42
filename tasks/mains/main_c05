@@ -1,0 +1,76 @@
+#include <stdio.h>
+
+int ft_iterative_factorial(int nb);
+int ft_recursive_factorial(int nb);
+int ft_iterative_power(int nb, int power);
+int ft_recursive_power(int nb, int power);
+int ft_fibonacci(int index);
+
+int main(void)
+{
+	printf("\n\t--------------------\tft_iterative_factorial\t--------------------\n");
+	printf("Factorial %d = %d\n", -69, ft_iterative_factorial(-69));
+	printf("Factorial %d = %d\n", 0, ft_iterative_factorial(0));
+	printf("Factorial %d = %d\n", 1, ft_iterative_factorial(1));
+	printf("Factorial %d = %d\n", 2, ft_iterative_factorial(2));
+	printf("Factorial %d = %d\n", 12, ft_iterative_factorial(12));
+	printf("Factorial %d = %d\n", 3, ft_iterative_factorial(3));
+	printf("Factorial %d = %d\n", 4, ft_iterative_factorial(4));
+	printf("Factorial %d = %d\n", 5, ft_iterative_factorial(5));
+	printf("Factorial %d = %d\n", 6, ft_iterative_factorial(6));
+	printf("Factorial %d = %d\n", 8, ft_iterative_factorial(8));
+	printf("Factorial %d = %d\n", 9, ft_iterative_factorial(9));
+	printf("Factorial %d = %d\n", 10, ft_iterative_factorial(10));
+	printf("Factorial %d = %d\n", 11, ft_iterative_factorial(11));
+
+	printf("\n\t--------------------\tft_recursive_factorial\t--------------------\n");
+
+	printf("Factorial %d = %d\n", -74, ft_recursive_factorial(-74));
+	printf("Factorial %d = %d\n", 0, ft_recursive_factorial(0));
+	printf("Factorial %d = %d\n", 1, ft_recursive_factorial(1));
+	printf("Factorial %d = %d\n", 2, ft_recursive_factorial(2));
+	printf("Factorial %d = %d\n", 12, ft_recursive_factorial(12));
+	printf("Factorial %d = %d\n", 3, ft_recursive_factorial(3));
+	printf("Factorial %d = %d\n", 4, ft_recursive_factorial(4));
+	printf("Factorial %d = %d\n", 5, ft_recursive_factorial(5));
+	printf("Factorial %d = %d\n", 7, ft_recursive_factorial(7));
+	printf("Factorial %d = %d\n", 8, ft_recursive_factorial(8));
+	printf("Factorial %d = %d\n", 9, ft_recursive_factorial(9));
+	printf("Factorial %d = %d\n", 10, ft_recursive_factorial(10));
+	printf("Factorial %d = %d\n", 11, ft_recursive_factorial(11));
+
+	printf("\n\t--------------------\tft_iterative_power\t--------------------\n");
+
+	printf("%d ^ %d = %d\n", -1615, -2818, ft_iterative_power(-1615, -2818));
+	printf("%d ^ %d = %d\n", 0, 0, ft_iterative_power(0, 0));
+	printf("%d ^ %d = %d\n", -1495, 0, ft_iterative_power(-1495, 0));
+	printf("%d ^ %d = %d\n", -2967, 1, ft_iterative_power(-2967, 1));
+	printf("%d ^ %d = %d\n", 3, 2, ft_iterative_power(3, 2));
+	printf("%d ^ %d = %d\n", 4, 3, ft_iterative_power(4, 3));
+	printf("%d ^ %d = %d\n", 6, 4, ft_iterative_power(6, 4));
+	printf("%d ^ %d = %d\n", 7, 5, ft_iterative_power(7, 5));
+	printf("%d ^ %d = %d\n", -4, 6, ft_iterative_power(-4, 6));
+	printf("%d ^ %d = %d\n", -3, 9, ft_iterative_power(-3, 9));
+	printf("%d ^ %d = %d\n", -2, 10, ft_iterative_power(-2, 10));
+	printf("\n\t--------------------\tft_recursive_power\t--------------------\n");
+	// printf("%d ^ %d = %d\n", -1615, -2818, ft_recursive_power(-1615, -2818));
+	// printf("%d ^ %d = %d\n", 0, 0, ft_recursive_power(0, 0));
+	// printf("%d ^ %d = %d\n", -1495, 0, ft_recursive_power(-1495, 0));
+	// printf("%d ^ %d = %d\n", -2967, 1, ft_recursive_power(-2967, 1));
+	// printf("%d ^ %d = %d\n", 0, 2, ft_recursive_power(0, 2));
+	// printf("%d ^ %d = %d\n", 4, 3, ft_recursive_power(4, 3));
+	// printf("%d ^ %d = %d\n", 5, 4, ft_recursive_power(5, 4));
+	// printf("%d ^ %d = %d\n", 7, 6, ft_recursive_power(7, 6));
+	// printf("%d ^ %d = %d\n", -5, 7, ft_recursive_power(-5, 7));
+	// printf("%d ^ %d = %d\n", -4, 8, ft_recursive_power(-4, 8));
+	// printf("%d ^ %d = %d\n", -2, 10, ft_recursive_power(-2, 10));
+
+	printf("\n\t--------------------\tft_fibonacci\t--------------------\n");
+	printf("fibonacci of %d is %d\n", -1783, ft_fibonacci(-1783));
+	printf("fibonacci of %d is %d\n", 0, ft_fibonacci(0));
+	printf("fibonacci of %d is %d\n", 1, ft_fibonacci(1));
+	printf("fibonacci of %d is %d\n", 2, ft_fibonacci(2));
+	printf("fibonacci of %d is %d\n", 3, ft_fibonacci(3));
+	printf("fibonacci of %d is %d\n", 10, ft_fibonacci(10));
+	printf("fibonacci of %d is %d\n", 14, ft_fibonacci(14));
+}

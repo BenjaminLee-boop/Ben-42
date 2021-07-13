@@ -1,0 +1,28 @@
+struct s_Rows
+{
+	int rowNumber;
+	int leftValue;
+	int rightVale;
+} row;
+
+struct s_col
+{
+	int collumNumber;
+	int topValue;
+	int bottomValue;
+	int sq1;
+	int sq2;
+	int sq3;
+	int sq4;
+} collum;
+
+void ft_top_logic(struct s_col col1, struct s_col col2, struct s_col col3, struct s_col col4);
+//, struct s_col col2, struct s_col col3, struct s_col col4
+void ft_solve_top(struct s_col col1)
+{
+	if (col1.topValue == 1)
+	{
+		col1.topValue = 4;
+	}
+	
+}
